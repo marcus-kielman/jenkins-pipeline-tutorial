@@ -31,5 +31,15 @@ pipeline {
                 echo 'Save the assemblies generated from the compilation' 
             }
         }
+        stage('Test Stage 1') {
+            steps {
+                echo 'Runs test stage 1' 
+            }
+        }
+        stage('Test Stage 2') {
+            steps {
+                echo 'Runs test stage 2' 
+            }
+        }
     }
 }
